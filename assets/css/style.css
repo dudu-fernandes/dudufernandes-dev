@@ -1,0 +1,14 @@
+:root {
+    background-color: #171717;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    color: #fff;
+    
+    padding: 54px 20px;
+}
+
+.btn--hamburguer {
+    background-image: url("../btn--hamburguer.svg");
+}

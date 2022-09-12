@@ -1,0 +1,49 @@
+.conteudo {
+  display: flex;
+}
+
+.home {
+  width: 100vh;
+  margin-top: 63px;
+}
+
+.home__profissao,
+p,
+h1 {
+  text-align: right;
+  margin: 0;
+}
+
+.home__profissao--desenvolvedor {
+  font-size: 26px;
+}
+
+.home__profissao--frontend {
+  font-size: 39px;
+}
+
+.home__profissao--junior {
+  text-align: left;
+  margin-left: 144px;
+}
+
+.chamada {
+  text-align: left;
+  font-size: 39px;
+
+  width: 218px;
+  margin-left: 16px;
+  margin-top: 140px;
+
+  border-left: 2px solid #fff;
+  padding-left: 32px;
+}
+
+.home__btn {
+  margin-top: 740px;
+  border: 2px solid;
+  padding: 1rem;
+  border-radius: 20px;
+  width: 163px;
+  height: 30px;
+}
