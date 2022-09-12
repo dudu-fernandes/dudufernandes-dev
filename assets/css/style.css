@@ -7,6 +7,8 @@
     color: #fff;
     
     padding: 54px 20px;
+
+    --cor-tema: #00d5c7;
 }
 
 .btn--hamburguer {

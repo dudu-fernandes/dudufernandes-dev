@@ -3,28 +3,42 @@
 }
 
 .home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   width: 100vh;
   margin-top: 63px;
 }
 
-.home__profissao,
-p,
-h1 {
+.home__profissao {
   text-align: right;
+  margin-left: 6.5rem;
+}
+
+.home__profissao-sou {
   margin: 0;
 }
 
 .home__profissao--desenvolvedor {
   font-size: 26px;
+  margin: 0;
 }
 
 .home__profissao--frontend {
   font-size: 39px;
+  margin: 0;
 }
 
 .home__profissao--junior {
   text-align: left;
+  margin: 0;
   margin-left: 144px;
+}
+
+.home__chamada {
+  margin-right: 6rem;
+  margin-bottom: 3rem;
 }
 
 .chamada {
@@ -40,10 +54,27 @@ h1 {
 }
 
 .home__btn {
-  margin-top: 740px;
-  border: 2px solid;
-  padding: 1rem;
-  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--cor-tema);
+  text-decoration: none;
+  font-weight: 700;
+  color: #fff;
+
+  border: 2px solid var(--cor-tema);
+  border-radius: 40px;
+  
   width: 163px;
   height: 30px;
+}
+
+.deslize {
+  text-align: center;
+}
+
+.deslize__texto {
+  text-transform: uppercase;
+  font-size: .5rem;
 }
