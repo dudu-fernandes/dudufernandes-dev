@@ -1,39 +1,36 @@
 .conteudo {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .home {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  width: 100vh;
   margin-top: 63px;
+  margin-bottom: 1rem;
 }
 
 .home__profissao {
+  display: inline-block;
   text-align: right;
-  margin-left: 6.5rem;
+  width: 206px;
+  margin-left: 40%;
 }
 
-.home__profissao-sou {
+.home__profissao-sou, .home__profissao-desenvolvedor, .home__profissao-frontend, .home__profissao-junior {
   margin: 0;
 }
 
-.home__profissao--desenvolvedor {
-  font-size: 26px;
-  margin: 0;
+.home__profissao-desenvolvedor {
+  font-size: 1.5rem;
 }
 
-.home__profissao--frontend {
-  font-size: 39px;
-  margin: 0;
+.home__profissao-frontend {
+  font-size: 2.18rem;
 }
 
-.home__profissao--junior {
+.home__profissao-junior {
   text-align: left;
-  margin: 0;
-  margin-left: 144px;
 }
 
 .home__chamada {
@@ -53,6 +50,10 @@
   padding-left: 32px;
 }
 
+.chamada__internet {
+  font-weight: 700;
+}
+
 .home__btn {
   display: flex;
   align-items: center;
@@ -68,6 +69,8 @@
   
   width: 163px;
   height: 30px;
+
+  margin-left: 25%;
 }
 
 .deslize {

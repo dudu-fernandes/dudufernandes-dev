@@ -1,0 +1,29 @@
+.sobre {
+    text-align: center;
+    width: 100%;
+    padding: 50px;
+}
+
+.sobre__titulo {
+    text-align: left;
+}
+
+.sobre__nome {
+    margin: 10px 0;
+}
+
+.sobre__sobrenome {
+   font-style: italic; 
+   font-weight: 400;
+}
+
+.sobre__texto {
+    text-align: justify;
+}
+
+.sobre__botoes-sociais {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
