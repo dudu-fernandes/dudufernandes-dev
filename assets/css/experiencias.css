@@ -1,0 +1,19 @@
+.experiencias__titulo {
+    text-align: left;
+}
+
+.experiencias__texto {
+    text-align: justify;
+}
+
+.experiencias__tecnologias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 4rem 0;   
+}
+
+.tecnologias__icone {
+    margin: 15px;
+    align-items: center;
+}

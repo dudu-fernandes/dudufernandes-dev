@@ -1,20 +1,30 @@
-.sobre {
-    text-align: center;
-    width: 100%;
-    padding: 50px;
-}
-
 .sobre__titulo {
     text-align: left;
 }
 
+.sobre__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobre__foto {
+    width: 136px;
+    height: 136px;
+}
+
 .sobre__nome {
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 .sobre__sobrenome {
    font-style: italic; 
    font-weight: 400;
+   margin: 5px 0;
+}
+
+.sobrenome-emoji {
+    font-style: normal;
 }
 
 .sobre__texto {
@@ -26,4 +36,9 @@
     align-items: center;
     width: 100%;
     justify-content: space-around;
+    padding: 20px;
+}
+
+.sobre__btn {
+    margin: 20px 20px;
 }

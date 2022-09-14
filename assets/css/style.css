@@ -1,17 +1,72 @@
 :root {
-    background-color: #171717;
-    
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    font-weight: lighter;
-    color: #fff;
-    
-    padding: 54px 20px;
+  display: grid;
+  grid-template-areas: 
+    "cabecalho"
+    "home"
+    "sobre"
+    "experiencias"
+    "portifolio"
+    "contato";
 
-    --cor-tema: #00d5c7;
+  background-color: #171717;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+
+  padding: 54px 20px;
+
+  --cor-tema: #00d5c7;
 }
 
 
-.btn--hamburguer {
-    background-image: url("../btn--hamburguer.svg");
+.container {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  padding: .8rem;
+  margin: 1rem 0;
+}
+
+.cabecalho {
+  grid-area: cabecalho;
+}
+
+.home {
+  grid-area: home;
+  height: calc(100vh - 20px);
+  background-color: red;
+  grid-template-rows: 3;
+  margin: 2rem 0;
+  justify-content: space-between;
+}
+
+.sobre {
+  grid-area: sobre;
+  height: calc(100vh - 20px);
+  background-color: red;
+  padding: 2rem;
+}
+
+.experiencias {
+  grid-area: experiencias;
+  height: calc(100vh - 20px);
+  background-color: red;
+  padding: 2rem;
+}
+
+.portifolio {
+  grid-area: portifolio;
+  height: calc(100vh - 20px);
+  background-color: red;
+  padding: 2rem;
+}
+
+.contato {
+  grid-area: contato;
+  height: calc(100vh - 20px);
+  background-color: red;
+  padding: 2rem;
 }

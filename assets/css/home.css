@@ -1,50 +1,37 @@
-.conteudo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.home {
-  margin-top: 63px;
-  margin-bottom: 1rem;
-}
-
 .home__profissao {
-  display: inline-block;
+  grid-row: 1;
   text-align: right;
-  width: 206px;
-  margin-left: 40%;
+  width: calc(100% - 20px);
 }
 
-.home__profissao-sou, .home__profissao-desenvolvedor, .home__profissao-frontend, .home__profissao-junior {
+.home__profissao-sou {
+  font-size: 18px;
   margin: 0;
 }
 
 .home__profissao-desenvolvedor {
-  font-size: 1.5rem;
+  margin: 0;
+  font-size: 26px;
 }
 
 .home__profissao-frontend {
-  font-size: 2.18rem;
+  font-size: 39px;
+  margin: 0;
 }
 
 .home__profissao-junior {
+  font-size: 18px;
+  margin: 0;
   text-align: left;
-}
-
-.home__chamada {
-  margin-right: 6rem;
-  margin-bottom: 3rem;
+  margin-left: calc(100% - 203px);
 }
 
 .chamada {
+  grid-row: 2;
   text-align: left;
-  font-size: 39px;
+  font-size: 38px;
 
-  width: 218px;
-  margin-left: 16px;
-  margin-top: 140px;
+  width: 200px;
 
   border-left: 2px solid #fff;
   padding-left: 32px;
@@ -54,10 +41,13 @@
   font-weight: 700;
 }
 
-.home__btn {
+.home__botao {
   display: flex;
-  align-items: center;
   justify-content: center;
+}
+
+.home__btn {
+  grid-row: 3;
 
   background-color: var(--cor-tema);
   text-decoration: none;
@@ -66,18 +56,5 @@
 
   border: 2px solid var(--cor-tema);
   border-radius: 40px;
-  
-  width: 163px;
-  height: 30px;
-
-  margin-left: 25%;
-}
-
-.deslize {
-  text-align: center;
-}
-
-.deslize__texto {
-  text-transform: uppercase;
-  font-size: .5rem;
+  padding: .3rem 2rem;
 }
