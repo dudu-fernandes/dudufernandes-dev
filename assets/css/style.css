@@ -37,7 +37,6 @@
 .home {
   grid-area: home;
   height: calc(100vh - 20px);
-  background-color: red;
   grid-template-rows: 3;
   margin: 2rem 0;
   justify-content: space-between;
@@ -46,27 +45,23 @@
 .sobre {
   grid-area: sobre;
   height: calc(100vh - 20px);
-  background-color: red;
   padding: 2rem;
 }
 
 .experiencias {
   grid-area: experiencias;
   height: calc(100vh - 20px);
-  background-color: red;
   padding: 2rem;
 }
 
 .portifolio {
   grid-area: portifolio;
   height: calc(100vh - 20px);
-  background-color: red;
   padding: 2rem;
 }
 
 .contato {
   grid-area: contato;
   height: calc(100vh - 20px);
-  background-color: red;
   padding: 2rem;
 }
