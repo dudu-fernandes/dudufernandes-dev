@@ -1,0 +1,34 @@
+.contato__titulo {
+    text-align: left;
+}
+
+.contato__texto {
+    text-align: justify;
+    margin: 3rem 0;
+}
+
+.contato__conectar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.conectar__linkedin {
+    height: 10rem;
+}
+
+.contatar__texto {
+    text-align: center;
+    margin: 0 2rem;
+}
+
+.contatar__texto--negrito {
+    font-weight: 700;
+}

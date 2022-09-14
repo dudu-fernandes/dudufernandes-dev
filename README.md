@@ -45,7 +45,3 @@ Para você ter uma ideia como ficará a apresentação basta clicar no nome de c
 ## Autor
 
 Washington Luís Fernandes (Dudu)
-
-## Últimas atualizações
-
-* Site hospedado na plataforma Vercel

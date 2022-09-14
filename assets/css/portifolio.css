@@ -1,0 +1,29 @@
+.portifolio__titulo {
+    text-align: left;
+}
+
+.portifolio__background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10rem 0;
+    color: #888888;
+}
+
+.background__setas {
+    height: 8rem;
+}
+
+.background__texto {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 23px;
+}
+
+.portifolio__btn {
+    text-align: center;
+}
+
+.portifolio__btn--github {
+    height: 4rem;
+}

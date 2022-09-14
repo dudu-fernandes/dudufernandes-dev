@@ -1,0 +1,7 @@
+.rodape__informacoes {
+    background-color: var(--cor-tema);
+    color: #171717;
+
+    text-align: center;
+    padding: 1rem 3rem;
+}
